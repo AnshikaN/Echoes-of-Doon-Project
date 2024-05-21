@@ -1,0 +1,114 @@
+/*responssive done -> pink box could be changes in height*/
+body {
+    background-color: #FECD08;
+    margin: 0;
+    padding: 0;
+    font-family: 'Helvetica', sans-serif;
+}
+
+.container {
+    border: none;
+    position: relative;
+    display: flex;
+    margin: 5% auto;
+    align-items: center;
+    border-radius: 5vw;
+    background-color: #FF8B8B;
+    width: 90%;
+    max-width: 50vw; /* Updated max-width */
+    height: auto;
+    flex-direction: column;
+    padding: 2%;
+}
+.btn {
+    background:whitesmoke;
+    font-size: 4vw; /* Increased font size */
+    text-align: center;
+    text-decoration: none;
+    border: none;
+    font-family: 'Helvetica';
+    cursor: pointer;
+    width: 50%; /* Increased width */
+    height: 100%; /* Increased height */
+    border-radius: 5vw;
+    margin: 5% 0;
+    padding-top: 5%;
+    padding-bottom: 5%;
+}
+.btn:hover {
+    background-color: lightpink;
+}
+
+.item {
+    display: flex;
+    margin: 5%;
+    border-radius: 5vw;
+    width: 90%;
+    height: 10%;
+    background-color: #FECD08;
+    border: none;
+    align-items: center;
+}
+
+.input {
+    width: 80%;
+    height: 100%;
+    border: none;
+    align-items: center;
+    background: transparent;
+    border-radius: 5vw;
+    outline: none;
+    font-size: 3vw;
+    padding: 0 4%;
+}
+
+::placeholder {
+    color: black;
+    font-size: 100%;
+    font-family: 'Helvetica';
+    text-align: left;
+}
+
+.innercontainer {
+    display: flex;
+    flex-direction: column;
+    margin: 5% 0;
+    width:100%;
+}
+.image {
+    display: block;
+    margin: 5%;
+    width: auto; /* Adjust the percentage as needed */
+}
+input:-webkit-autofill,
+input:-webkit-autofill:hover,
+input:-webkit-autofill:focus,
+textarea:-webkit-autofill,
+textarea:-webkit-autofill:hover,
+textarea:-webkit-autofill:focus,
+select:-webkit-autofill,
+select:-webkit-autofill:hover,
+select:-webkit-autofill:focus {
+    -webkit-text-fill-color: black;
+    -webkit-box-shadow: 0 0 0 1000px #FECD08 inset;
+    transition: background-color 5000s ease-in-out 0s;
+}
+
+.heading {
+    align-self: flex-start;
+    font-size: 6vw;
+    font-weight: 400;
+    margin-left: -0px;
+    margin-top: -10%;
+    padding-top: 10%;
+    padding-left: 5%;
+    margin-bottom: 5%;
+}
+
+.pot {
+    align-self: flex-start;
+    margin-top: 20%;
+    height: 30%;
+    margin-left: -80%;
+    width: 25%;
+}

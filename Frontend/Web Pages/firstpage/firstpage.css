@@ -1,0 +1,52 @@
+/*responsive design done-> no change needed*/
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: rgb(251, 251, 64); /* Pink background color */
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color:rgba(74, 216, 255, 0.564); /* Pink box background color */
+    padding: 30px;
+    border-radius: 20px; /* Rounded corners */
+}
+.title {
+    font-size: 24px;
+    color: #fff;
+    margin-bottom: 20px; /* Space between title and buttons */
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif Helvetica, sans-serif;
+}
+.logo img {
+    width: 80%; /* Adjust the width of the logo */
+    margin-bottom: 20px; /* Space between logo and buttons */
+}
+
+.button-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.btn {
+    padding: 15px 30px;
+    margin: 10px;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    font-size: 18px;
+    color: #fff;
+    background-color: rgb(112, 142, 240); /* Yellow button */
+    transition: all 0.3s ease;
+}
+
+.btn:hover {
+    opacity: 0.8;
+}

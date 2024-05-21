@@ -1,0 +1,203 @@
+/* responsive done- no changes needed
+*{
+    margin:0;
+    padding:0;
+}
+body{
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+h2{
+    color: #C481FA;
+    font-family: Abril Fatface;
+    font-size: 48.208px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin:20px 0px;
+}
+.box{
+    display: flex;
+}
+p{
+    margin-right:70px;
+}
+.container{
+    color:white;
+    background: rgba(1,1,1,1);
+    margin:30px;
+    border-radius:64px;
+    padding:20px 10px;
+    flex-shrink:0;
+    width:60%;
+}
+form{
+    margin:10px 30px;
+    border:none;
+}
+.btn{
+    margin:20px 10px;
+    width:20%;
+    height:40px;
+    border-radius: 32px;
+    outline:none;
+    border:none;
+    font-size:20px;
+    cursor: pointer;
+}
+label{
+    color:white;
+    font-size:20px;
+}
+input{
+    padding:10px;
+    border:none;
+    outline:none;
+    font-size:16px;
+    border-radius:32px;
+    background:#333;
+    color:white;
+    margin-bottom:20px;
+    flex-shrink: 0;
+    width:250px;
+}
+textarea{
+    padding:16px;
+    border:none;
+    outline:none;
+    font-size:16px;
+    border-radius:32px;
+    background:#333;
+    color:white;
+    margin-bottom:20px;
+    flex-shrink: 0;
+    resize: none;
+}
+#files{
+    padding:10px 20px;
+    cursor: pointer;
+}
+fieldset{
+    padding:10px 20px;
+}
+*/
+/* Common styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: grey; /* Changed to a specific color instead of black */
+    margin: 0;
+    font-family: 'Arial', sans-serif; /* Fallback font added */
+}
+
+h2 {
+    color: #C481FA;
+    font-family: 'Abril Fatface', cursive;
+    font-size: 3em; /* Adjusted font size to be responsive */
+    line-height: 1.2;
+    margin: 20px 0;
+}
+
+.box {
+    display: flex;
+    flex-wrap: wrap; /* Allow flex items to wrap on smaller screens */
+    justify-content: space-between; /* Distribute items evenly */
+}
+
+p {
+    margin-right: 20px; /* Reduced margin for smaller screens */
+}
+
+.container {
+    color: white;
+    background: rgba(1, 1, 1, 0.8); /* Adjusted background opacity */
+    margin: 30px;
+    border-radius: 20px; /* Reduced border-radius for a smoother look */
+    padding: 20px;
+    width: 80%; /* Adjusted width for responsiveness */
+    max-width: 900px; /* Added max-width for larger screens */
+}
+
+form {
+    margin: 10px 0;
+    border: none;
+}
+
+.btn {
+    margin: 20px 10px;
+    width: auto; /* Allow button width to adjust based on content */
+    height: 40px;
+    border-radius: 20px;
+    outline: none;
+    border: none;
+    font-size: 1em; /* Adjusted font size */
+    cursor: pointer;
+}
+
+label {
+    color: white;
+    font-size: 1em; /* Adjusted font size */
+}
+
+input,
+textarea {
+    padding: 10px;
+    border: none;
+    outline: none;
+    font-size: 1em; /* Adjusted font size */
+    border-radius: 20px;
+    background: #333;
+    color: white;
+    margin-bottom: 20px;
+    width: 100%; /* Make input fields full width */
+}
+
+#files {
+    padding: 10px 20px;
+    cursor: pointer;
+}
+
+fieldset {
+    padding: 10px 20px;
+}
+
+/* Media Queries for responsiveness */
+@media screen and (max-width: 768px) {
+    h2 {
+        font-size: 2.5em;
+    }
+
+    .container {
+        width: 90%;
+        margin: 20px;
+    }
+
+    input,
+    textarea {
+        font-size: 0.9em;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    h2 {
+        font-size: 2em;
+    }
+
+    .box {
+        flex-direction: column; /* Change flex direction to column for smaller screens */
+    }
+
+    input,
+    textarea {
+        font-size: 0.8em;
+    }
+}

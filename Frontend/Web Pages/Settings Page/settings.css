@@ -1,0 +1,108 @@
+/*responsive done -> no changes needed*/
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+}
+
+.settings-container {
+    max-width: 90%;
+    margin: 50px auto;
+    padding: 20px;
+    background-color: #222;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+}
+
+h1 {
+    text-align: center;
+    color: #FFD700; /* Yellow */
+}
+
+.setting {
+    margin-bottom: 20px;
+}
+
+label {
+    display: block;
+    margin-bottom: 8px;
+    color: #fff; /* White */
+}
+
+.toggle {
+    position: relative;
+    display: inline-block;
+    width: 50px;
+    height: 24px;
+}
+
+.toggle input {
+    display: none;
+}
+
+.toggle label {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 50px;
+    height: 24px;
+    background-color: #ccc;
+    border-radius: 12px;
+    cursor: pointer;
+}
+
+.toggle label:after {
+    content: '';
+    position: absolute;
+    top: 4px;
+    left: 4px;
+    width: 16px;
+    height: 16px;
+    background-color: #fff;
+    border-radius: 50%;
+    transition: 0.3s;
+}
+
+.toggle input:checked + label {
+    background-color: #4caf50;
+}
+
+.toggle input:checked + label:after {
+    left: calc(100% - 20px);
+}
+
+select {
+    width: 100%;
+    padding: 8px;
+    box-sizing: border-box;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+button {
+    background-color: #4caf50;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+button:hover {
+    background-color: #45a049;
+}
+
+.setting label {
+    color: #fff;
+}
+
+h1 {
+    color: #FFD700; /* Yellow */
+}
+.dark-mode {
+    /* Example dark mode styles */
+    background-color: #333;
+    color: #fff;
+}

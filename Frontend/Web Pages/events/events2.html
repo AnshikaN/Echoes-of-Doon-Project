@@ -1,0 +1,30 @@
+<!-- merge sorting done in the filter events2.js file -->
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Events</title>
+    <link rel="stylesheet" href="events2.css">
+</head>
+
+<body>
+    <div class="maincontainer">
+        
+        <div class="filter-container">
+            <select id="filterOptions" onchange="filterEvents()">
+                <option value="latest">Latest to Old</option>
+                <option value="name">Names</option>
+                <!-- Add more filter options if needed -->
+            </select>
+        </div>
+        <h1 class="page-title">Events</h1>
+        <div class="events-container" id="eventsContainer">
+            <!-- Event boxes will be dynamically populated here -->
+        </div>
+    </div>
+    <script src="events2.js"></script>
+</body>
+
+</html>

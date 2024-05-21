@@ -1,0 +1,123 @@
+/*Responsivenes done-> no changes needed*/
+*{
+    margin:0px;
+    padding:0px;
+   
+}
+.container{
+    background-color: white;
+}
+img{
+    width:100%;
+    height:300px;
+}
+.images{
+    display: flex;
+    background-color:white;
+    margin:8px;
+}
+.images img{
+    width:25%;
+    height:200px;
+    margin:8px 8px;
+    border-radius: 16px;
+}
+.heading h2{
+    margin: 20px 20px;
+    color: #000;
+    font-family: Inter;
+    font-size: 40.547px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+.description{
+    margin-top:0;
+    margin-left: 22px;
+    font-size: 140%;
+}
+.article p{
+    padding:10px;
+    background-color:white;
+    margin:8px 8px;
+    color: #000;
+    font-family: Helvetica;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+.article h3{
+    padding: 20px;
+    background-color: white;
+    font-family: Inter;
+    font-size: 140%;
+    color: #5040A1;
+}
+.heading{
+    font-family: Inter;
+    margin-left:20px;
+    background-color: white;
+}
+.article{
+    margin:32px 32px;
+    margin-bottom: 150px;
+    background-color:white;
+    padding:8px 16px;
+    border-radius: 34.639px;
+    height: 300px;
+    box-shadow: 0px 0px 211.98767px 0px rgba(0, 0, 0, 0.10);
+}
+/* .logo{
+    margin:32px 32px;
+    background-color:white;
+    padding:8px 16px;
+    border-radius: 34.639px;
+    width: 25%;
+    box-shadow: 0px 0px 211.98767px 0px rgba(0, 0, 0, 0.10);
+} */
+/* .logo>img{
+    height: 50%;
+    width: 50%;
+    margin: 10px;
+    outline: none;
+} */
+.details{
+    margin-top:32px;
+    margin-bottom:32px;
+    background-color:white;
+    padding:20px 16px;
+    border-radius: 34.639px;
+    display:flex;
+    justify-content:space-around;
+    position: fixed;
+    bottom:0;
+    font-family: Helvetica, sans-serif;
+    width: 100vw; /* viewport width */
+}
+.duration{
+    padding-right: 20%;
+}
+h3{
+    background-color: white;
+    color: #5040A1;
+    margin-bottom: 4px;
+}
+.details p{
+    background-color: white;
+    font-weight:bold;
+}
+.btn {
+    background-color: #5040A1;
+    border-radius: 16px;
+    border: none;
+    width: 12%;
+    color: white;
+    font-weight: bold;
+    font-size: 100%;
+}
+@media screen and (max-width: 768px) {
+    .btn {
+        width: 20%; /* Adjust the width for smaller screens */
+        font-size: 80%; /* Adjust the font size for smaller screens */
+    }
+}

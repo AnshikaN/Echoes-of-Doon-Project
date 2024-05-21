@@ -1,0 +1,184 @@
+/*responsiveness done-> img size issue*/
+*{
+    margin:0;
+    padding:0;
+}
+.body{
+    background-image:url(person.png);
+    height:100vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position:center;
+    width:100%;
+    font-family: Arial, sans-serif;
+}
+.navbar{
+    display: flex;
+    background-color: black;
+    position: fixed;
+    width: 100%;
+}
+.navlist{
+    width:60%;
+    background-color:black;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+.navlist li{
+    list-style: none;
+    padding: 20px 30px;
+}
+.navlist li a{
+    text-decoration: none;
+    color: white;
+}
+.navlist li a:hover{
+    color:rgb(218, 27, 154);
+}
+.rightnav{
+    background-color:black;
+    width:40%;
+    text-align:right;
+    margin:auto 20px;
+    
+}
+.logo{
+    width:10%;
+    display:flex;
+    justify-content: center;
+    align-items:center;
+}
+.logo img{
+    width:80%;
+
+}
+.rightnav a{
+    align-content: center;
+    text-align: center;
+    text-decoration: none;
+    color:black;
+    background:rgba(217, 217, 217, 1);
+    padding: 20px 20px;
+    border-radius: 16px;
+}
+.nextpage{
+    background-color: black;
+    color:aqua;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+}
+.item img{
+    width: 100%; /* Ensure the image takes the full width of its container */
+    max-width: 100%; /* Limit image size to its container width */
+    height: auto; /* Maintain aspect ratio */
+}
+.item{
+    width:33%;
+    height:100vh;
+    margin:16px 8px;
+    border:2px solid white;
+}
+.item a{
+    text-decoration: none;
+    padding:20px;
+}
+.item h3{
+    margin:8px 16px;
+    text-align: center;
+}
+.acc{
+    color: #FB4D66;
+    font-family: SF Pro Display;
+    font-size: 71.004px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 77.885px;
+    letter-spacing: -0.363px;
+}
+.eve{
+    color:#29D246;
+    font-family: SF Pro Display;
+    font-size: 71.004px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 76.076px;
+    letter-spacing: -0.355px;   
+}
+.lib{
+    color: #2B9CA1;
+    font-family: SF Pro Display;
+    font-size: 71.004px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 76.076px; 
+    letter-spacing: -0.355px;
+}
+@media screen and (max-width: 768px) {
+    .navlist {
+        width: 100%;
+        justify-content: space-around;
+    }
+    .rightnav {
+        display: none;
+    }
+    .logo {
+        width: 20%;
+    }
+    .navlist li {
+        padding: 10px;
+    }
+    .item {
+        width: 100%;
+        height: auto;
+        margin: 8px 0;
+    }
+    .item img {
+        
+            max-width: 80%; /* Adjust the maximum width of the image for smaller screens */
+        
+    }
+    .item h3 {
+        font-size: 18px;
+    }
+    .acc,
+    .eve,
+    .lib {
+        font-size: 18px;
+        line-height: 20px;
+    }
+}
+
+/* Additional media query for smaller screens if needed */
+@media screen and (max-width: 480px) {
+    .navlist {
+        flex-direction: column;
+        align-items: center;
+    }
+    .logo {
+        width: 30%;
+    }
+    .navlist li {
+        padding: 8px;
+    }
+    .item {
+        width: 100%;
+        height: auto;
+        margin: 8px 0;
+    }
+    .item img {
+        max-width: 100%; /* Adjust the maximum width of the image further for very small screens */
+
+    }
+    .item h3 {
+        font-size: 16px;
+    }
+    .acc,
+    .eve,
+    .lib {
+        font-size: 16px;
+        line-height: 18px;
+    }
+}

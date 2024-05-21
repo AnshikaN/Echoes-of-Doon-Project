@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Organize Form</title>
+    <link rel="stylesheet" href="organizeform.css">
+</head>
+
+<body>
+    <div class="container">
+        <form method="post" action ="organizerphp.php">
+            <div>
+                <fieldset>
+                    <legend>
+                        <h2>Organise Event</h2>
+                    </legend>
+                    <label for="oname">Organiser name:</label><br>
+                    <input type="text" id="oname" name="oname" required><br>
+                    <label for="ename">Event name:</label><br>
+                    <input type="text" id="ename" name="ename" required>
+                    <div class="box">
+                        <p><label for="from">From:</label><br>
+                            <input type="date" id="from" name="from" required><br>
+                        </p>
+                        <p><label for="to">To:</label><br>
+                            <input type="date" id="to" name="to" required>
+                        </p>
+                    </div>
+                    <div class="box">
+                        <p><label for="venue">Event Venue:</label><br>
+                            <input type="text" id="venue" name="venue" required><br>
+                        </p>
+                        <p><label for="duration">Duration(if any):</label><br>
+                            <input type="time" id="duration" name="duration">
+                        </p>
+                    </div>
+                </fieldset>
+            </div>
+            <div>
+                <fieldset>
+                    <legend>
+                        <h2>Contact Details</h2>
+                    </legend>
+                    <label for="email">Email:</label><br>
+                    <input type="email" id="email" name="email" required><br>
+                    <label for="pnumber">Phone Number:</label><br>
+                    <input type="tel" id="pnumber" name="pnumber" maxlength="10" required><br>
+                </fieldset>
+            </div>
+            <div>
+                <fieldset>
+                    <legend>
+                        <h2>About Event</h2>
+                    </legend>
+                    <label for="cost">Cost of Event(if any):</label><br>
+                    <input type="number" id="cost" name="cost"><br>
+                    <label>About Event:</label><br>
+                    <textarea id="aboutevent" name="aboutevent" cols="50" rows="10" required></textarea><br>
+                    <label for="images">Add Images:</label><br>
+                    <input name="UploadImage"type="file" id="files" multiple="multiple" accept="image/jpg, image/jpeg, image/png"><br>
+                </fieldset>
+            </div>
+            <input class="btn" type="submit" value="Submit" name="Submit">
+        </form>
+    </div>
+</body>
+
+</html>

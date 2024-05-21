@@ -1,0 +1,55 @@
+<!-- added the filter option -->
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Events</title>
+    <link rel="stylesheet" href="events.css">
+</head>
+
+<body>
+    <div class="maincontainer">
+        <div class="leftcontainer">
+            <h1>Events</h1>
+            <h2>Doon</h2>
+            <button onclick="filterEvents()">Filter</button>
+            <select id="filterOptions">
+                <option value="latest">Latest to Old</option>
+                <option value="name">Names</option>
+            </select>
+        </div>
+        <div class="rightcontainer">
+            <div class="box" id="first">
+                <a href="/Eventsdetail/Events Detail.php">
+                    <img src="khalangawar.jpg">
+                    <h3 class="first">Khalanga War Memorial Heritage Walk</h3>
+                </a>
+            </div>
+            <div class="box" id="second">
+                <a href="#">
+                    <img src="uttarayanimela.webp">
+                    <h3 class="first" id="second">Uttarayani Mela</h3>
+                </a>
+            </div>
+            <div class="box" id="third">
+                <a href="#">
+                    <img src="virasat.avif">
+                    <h3 class="second" id="third">Virasat</h3>
+                </a>
+            </div>
+            <div class="box" id="fourth">
+                <a href="#">
+                    <img src="khalangawar.jpg">
+                    <h3 class="second" id="fourth">Dehradun Design Circle</h3>
+                </a>
+            </div>
+        </div>
+    </div>
+    <script src="events.js"></script>
+</body>
+
+</html>
+
+

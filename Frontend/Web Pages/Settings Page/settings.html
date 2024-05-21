@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="settings.css">
+    <title>Settings Page</title>
+</head>
+<body>
+    <div class="settings-container">
+        <h1>Settings</h1>
+        
+        <div class="setting">
+            <label for="notifications">Enable Notifications:</label>
+            <div class="toggle">
+                <input type="checkbox" id="notifications" name="notifications">
+                <label for="notifications"></label>
+            </div>
+        </div>
+        
+        <div class="setting">
+            <label for="dark-mode">Dark Mode:</label>
+            <div class="toggle">
+                <input type="checkbox" id="dark-mode" name="dark-mode">
+                <label for="dark-mode"></label>
+            </div>
+        </div>
+        
+        <div class="setting">
+            <label for="language">Preferred Language:</label>
+            <select id="language" name="language">
+                <option value="english">English</option>
+                <option value="spanish">Hindi</option>
+            </select>
+        </div>
+        
+        <button class="save-button">Save Changes</button>
+    </div>
+    <script src="settings.js"></script>
+</body>
+</html>
