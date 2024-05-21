@@ -3,6 +3,8 @@
 
 Welcome to the Dehradun Heritage Narratives Platform! This project aims to unveil the captivating stories of Dehradun's rich heritage, featuring information on local festivals, exhibitions, workshops, and insightful discussions. Connect with fellow enthusiasts and dive into the vibrant cultural tapestry of Dehradun.
 
+<img width="323" alt="Screenshot 2024-05-21 at 4 19 09 PM" src="https://github.com/riteshhbhandari/EchoesOfDoon/assets/85375196/d53a86ee-e22c-4370-9d71-bf7c7defd611">
+
 ## Features
 
 - **Local Festivals**: Discover upcoming and past local festivals celebrating Dehradun's cultural diversity.
