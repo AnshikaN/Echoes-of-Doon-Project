@@ -16,7 +16,8 @@ Welcome to the Dehradun Heritage Narratives Platform! This project aims to unvei
 ## Getting Started
 
 ##  Better understand the Project 
-<img width="815" alt="Screenshot 2024-05-21 at 3 01 36 PM" src="https://github.com/riteshhbhandari/Echoes-Of-Doon-Project/assets/85375196/deccf2bf-ecea-4acb-867f-79ea14450042">
+
+<img width="815" alt="Screenshot 2024-05-21 at 3 01 36 PM" src="https://github.com/riteshhbhandari/EchoesOfDoon/assets/85375196/f52366dd-c54c-4f8a-aa93-b0223a018e71">
 
 ### Installation
 
